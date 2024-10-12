@@ -1,0 +1,142 @@
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: rgba(242, 221, 221, 0.515);
+    
+}
+.hme{
+    text-decoration: underline;
+    text-decoration-color:rgb(242, 125, 0) ;
+}
+header{
+    color: white;
+    background: url(hero_bg.png) no-repeat center center/cover;
+    height:100vh;
+    position: relative;
+}
+.nav-links li{
+    
+    display:inline-block;
+    margin-right: 20px;
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    text-align: center;
+    
+}
+.search-form{
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.login{
+    background-color: transparent;
+    margin-right: 20px;
+}
+.signup{
+    background-color: rgb(242, 125, 0);
+    color: white;
+    border-radius: 10px;
+    border:none;
+}
+.login:hover{
+    cursor:pointer;
+}
+.signup:hover{
+    cursor:pointer;
+}
+.info-content{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.info-img {
+    max-width:300px;
+}
+.info-stats{
+    display: flex;
+    gap: 30px;
+}
+.info-stats h2{
+    color: orange;
+
+}
+.info-text{
+    max-width: 500px;
+}
+.bike-booking{
+    background-color: rgb(240, 182, 89);
+
+}
+.booking-form{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    max-width:400px;
+    margin:30px;
+    flex-wrap: wrap;
+    max-height: 240px;
+    margin-left: 200px;
+   
+}
+.booking-form input,.booking-form select,.booking-form button {
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid  white;
+}
+.bike-booking button{
+    background-color: rgb(242, 125, 0);
+    color: white;
+    border:none;
+    cursor:pointer;
+    margin-left: 330px;
+    margin-bottom: 50px;
+    padding: 10px 40px;
+    border-radius:20px
+}
+.bike-booking h2{
+    text-align: center;
+}
+.booking-form img{
+    max-width:400px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding:20px 0;
+   
+    
+}
+footer .container{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start ;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    margin-bottom: 10px;
+    
+}
+.footer-bottom {
+    text-align: center;
+    padding:20px 0;
+    
+}

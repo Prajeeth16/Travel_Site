@@ -1,0 +1,109 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: rgba(242, 221, 221, 0.515);
+}
+.navabt{
+    text-decoration: underline;
+    
+    text-decoration-color:rgb(242, 125, 0) ;
+}
+header{
+    background:url(About_bg.svg) repeat center center/cover;
+    color:white;
+    height: 100vh;
+    
+    text-align: center;
+}
+.hero{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    text-align: center;   
+}
+.navbar li{
+    display:inline-block;
+    margin-right: 20px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.signup{
+    background-color:rgb(242, 125, 0) ;
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+}
+.signup:hover{
+    cursor:pointer;
+}
+.login{
+    margin-right: 20px;
+}
+.view-packages{
+    background-color: transparent ;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid white;
+
+}
+.view-packages:hover{
+    cursor:pointer;
+}
+.welcome{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.text{
+    max-width:500px;
+    padding-right: 400px;
+}
+.welcomeimg{
+    max-width: 400px;
+}
+.stats{
+    display:flex;
+    gap:30px;
+    
+}
+.stats h2{
+    color: orange;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding:20px 0;
+   
+    
+}
+footer .container{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start ;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    margin-bottom: 10px;
+    
+}
+.footer-bottom {
+    text-align: center;
+    padding:20px 0;
+    
+}
+
